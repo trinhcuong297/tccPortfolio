@@ -1,0 +1,23 @@
+.footer-constructor{
+    display: flex;
+    background-color: #24263B;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo img{
+    width: 100px;
+    padding-left: 10px;
+}
+.footer-content{
+    font-family: "Poppins-SemiBold";
+    color: var(--dark-orange);
+    padding-top: 10px;
+    padding-right:5% ;
+    text-align: end;
+}
+.footer-content div{
+    display: flex;
+}
+.footer-content div p{
+    padding-right: 10%;
+}

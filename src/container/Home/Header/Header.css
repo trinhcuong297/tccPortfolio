@@ -1,0 +1,32 @@
+
+.logo{
+    width: 100px;
+}
+@media only screen and (max-width: 1010px){
+    .logo {
+        display: none;
+        align-items: center;
+    }
+}
+
+.navbar-collapse{
+    margin-right: 100px;
+    flex-direction: row-reverse;
+}
+
+.nav-link{
+    color: aliceblue !important;
+    font-family: "Poppins-SemiBold";
+    font-size: larger;
+    margin-left: 40px;
+    border-top: 0.1875rem solid #24263B;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+    border-top: 0.1875rem solid var(--dark-orange);
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--dark-orange);
+}
+
+
